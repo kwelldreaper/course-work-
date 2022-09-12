@@ -27,13 +27,11 @@ div {
   z-index: 1;
 }
 
-/* Give me a position of absolute and a top value of 1400px and left value of 600px.
- Also give me a Z-index of 2 */
 .absolute {
   background-color: rgb(255, 208, 108);
   position: absolute;
   top: 1400px;
-  left: 1400px;
+  left: 600px;
   z-index: 2;
 
 }
