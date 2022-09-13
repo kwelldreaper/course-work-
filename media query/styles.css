@@ -1,0 +1,44 @@
+body {
+    background-color: black;
+}
+header {
+    font-size: 30px;
+    color: white;
+}
+/*media quiries are always at the bototm of the css*/
+@media screen and (min-width: 600px) {
+    body{
+        background-color: red;
+    }
+    header {
+        font-size: 10px;
+        color: purple;
+    }
+}    
+@media screen and (min-width: 768px) {
+    body{
+            background-color: blue;
+    }
+    header {
+            font-size: 15px;
+            color: green;
+    }
+}
+@media screen and (min-width: 992px) {
+    body{
+                background-color: green;
+    }
+    header {
+                font-size: 20px;
+                color: black;
+    }
+}            
+@media screen and (min-width: 1200px) {
+    body{
+                    background-color: orange;
+    }
+    header {
+                    font-size: 25px;
+                    color: pink;
+    }
+}
