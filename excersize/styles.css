@@ -1,0 +1,24 @@
+* {
+    font-size: 16px;
+}
+div {
+    width: 25%;
+    height: 200px;
+    display: inline-block;
+    font-size: 30px;
+    vertical-align: top;
+}
+.fs2 {
+    color: aqua;
+    background-color: blueviolet;
+}
+.fs3  {
+    color: red;
+    background-color: chartreuse;
+}
+#em {
+    font-size: 2em;
+}
+#rem {
+    font-size: 2rem;
+}
